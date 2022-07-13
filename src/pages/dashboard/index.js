@@ -73,7 +73,7 @@ const ProjectDashboardPage = (props) => {
 
             {role === 'Admin' && (
                 <>
-                    <Row>
+                    {/* <Row>
                         <Col xl={4} md={12} sm={12}>
                             <Status />
                         </Col>
@@ -82,7 +82,7 @@ const ProjectDashboardPage = (props) => {
                         </Col>
                     </Row>
 
-                    <TasksChart />
+                    <TasksChart /> */}
                 </>
             )}
         </React.Fragment>
