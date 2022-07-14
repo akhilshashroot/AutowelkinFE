@@ -475,15 +475,15 @@ const InterviewRoute = {
   roles: ["Admin"],
   role_number: [0, 1, 2, 3, 4, 5],
 };
-const AnnouncementRoute = {
-  path: "/admin/announcements",
-  name: "Announcements",
-  route: PrivateRoute,
-  icon: "uil-microphone",
-  component: Announcement,
-  roles: ["Admin"],
-  role_number: [0, 1, 2, 3],
-};
+// const AnnouncementRoute = {
+//   path: "/admin/announcements",
+//   name: "Announcements",
+//   route: PrivateRoute,
+//   icon: "uil-microphone",
+//   component: Announcement,
+//   roles: ["Admin"],
+//   role_number: [0, 1, 2, 3],
+// };
 const DesignationRoute = {
   path: "/admin/designation",
   name: "Designation",
@@ -579,7 +579,7 @@ const appRoutes = [
   SettingRoutes,
   ShiftRecordRoutes,
   InterviewRoute,
-  AnnouncementRoute,
+  // AnnouncementRoute,
   TimesheetRoutes,
   Worksheetroutes,
   TasksRoutes,

@@ -32,8 +32,6 @@ import { toast, Zoom } from 'react-toastify';
 
 const typeOptions = [
     { value: '1', label: 'Text Field' },
-    { value: '2', label: 'CheckBox' },
-    { value: '3', label: 'Number' },
 ];
 class ConfigureActivity extends React.Component {
     emptyAllFields = () => toast.warning('Please Fill All Fields', { transition: Zoom });
