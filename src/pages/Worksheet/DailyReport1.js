@@ -157,7 +157,7 @@ class DailyReport1 extends React.Component {
                         )}
 
                     {dailyReport && dailyReport.data && dailyReport.data.punchin && (
-                        <button className="btn btn-danger" onClick={this.switch}>
+                        <button className="btn btn-danger" style={{display:'none'}} onClick={this.switch}>
                             View Report
                         </button>
                     )}
